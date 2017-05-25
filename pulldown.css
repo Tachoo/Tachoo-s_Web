@@ -1,0 +1,45 @@
+ul#pulldown-menu a {
+        color: #FFFFFF;
+        text-decoration: none;
+}
+ul#pulldown-menu a:link, 
+ul#pulldown-menu a:visited {
+
+}
+ul#pulldown-menu a:hover,
+ul#pulldown-menu a:active {
+}
+
+ul#pulldown-menu li {
+        float: left;
+        position: relative;
+        margin: 0;
+        width: 130px;
+        height: 35px;
+        font-weight: bold;
+        line-height: 2em;
+}
+ul#pulldown-menu li a {
+        display: block;
+        width: 130px;
+        height: 70px;
+        text-align: center;
+}
+
+/* 下層のメニューを不可視に */
+ul#pulldown-menu li ul {
+        display: none;
+}
+
+/* 疑似要素 :hover で下層のメニューを可視に */
+ul#pulldown-menu li:hover ul {
+        display: block;
+        position: absolute;
+        z-index: 100;
+}
+
+ul#pulldown-menu li ul li {
+        float: none;
+        margin: 0;
+        font-weight: normal;
+}

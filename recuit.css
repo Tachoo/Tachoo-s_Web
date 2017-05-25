@@ -1,0 +1,114 @@
+#subnavi {
+	background-image: url(perimg/bg_subnavi_recruit.png);
+	background-repeat: repeat-y;
+}
+
+.rectxt1 {
+	width: 70%;
+	margin-top: 10.5em; 
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom: 0em;
+	padding: 0em;
+	height: auto;
+	overflow: visible;
+}
+.rectxt2 {
+	width: 31%;
+	float: left;
+	height: 100px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding: 5px;
+}
+.rectxt3 {
+	width: 33%;
+	height: 100px;
+	float: left;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+.reccenter {
+/*	width: 700px; */
+	width: 100%;
+	clear: both;
+	right: 0px;
+}
+#sidemenu {
+	width: 25%;
+	height: auto;
+/*	margin: 5px; */
+	right: 1em;
+	overflow: auto;
+	float: left;
+
+}
+.txtboldj {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	font-weight: bold;
+}
+
+#sidemenu li {
+	margin: 0.5em 0.5em 0.5em 1.5em;
+	list-style-type: disc;
+
+}
+
+
+#contents {
+	width: 70%;
+	clear: right;
+	float:	left;
+	height: auto;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #999999;
+	min-height:130px;
+}
+#contents li {
+	margin-top: 0.3em;
+	margin-left: 2em;
+	margin-bottom: 0.3em;
+
+}
+
+#contents dt {
+	margin:0.8em 0 1em 0.2em;
+}
+
+#contents dd {
+	margin:0 0 0 2em;
+}
+
+#contents p {
+	margin:1em 0 0 1em;
+}
+
+.limargin {
+	margin-top: 2px;
+	padding-top: 2px;
+}
+h3 {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	font-size: 12px;
+	font-weight: bold;
+	margin: 2px;
+	padding: 2px;
+}
+dt {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	font-size: 12px;
+	font-weight: bold;
+}
+.position {
+	font-size: 14px;
+	color: #330000;
+}
+#contents h4 {
+	margin-top: 10px;
+}
+
+
+.attentionred {
+color:red;
+}

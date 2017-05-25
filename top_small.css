@@ -1,0 +1,403 @@
+/*LOGO*/
+
+#ufologo {
+width:245px;
+height:90px;
+margin:0;
+padding:0;
+}
+
+#ufologo li{
+width:245px;
+height:90px;
+list-style-type:none;
+} 
+
+#ufologo a{
+display:block;
+width:245px;
+height:90px;
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/Tachoo_Logo.jpg);   
+background-repeat: no-repeat;   
+} 
+
+.logo a { background-position: 0 0px; } 
+
+
+/*MENU*/
+
+#globalnavi{
+margin:0;
+padding:0;
+widh:130px;
+height:70px;
+}
+
+#globalnavi li{
+text-indent:-9999px;
+float:left;
+width:130px;
+padding:0;
+list-style-type:none;
+}
+
+#globalnavi a{
+display:block;
+width:100%;
+height:70px;
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.jpg);   
+background-repeat: no-repeat;   
+}
+
+.home a { background-position: 0 0px; } 
+.profile a { background-position: 0 -70px; }   
+.news a { background-position: 0px -140px; }   
+.works a { background-position: 0 -210px; }   
+.recruit a { background-position: 0 -280px; }   
+.webshop a { background-position: 0 -350px; } 
+.community a { background-position: 0 -420px; } 
+ 
+#globalnavi a:hover {   
+text-decoration: none;   
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.jpg);   
+background-repeat: no-repeat;   
+}   
+
+.home a:hover { background-position: -130px 0px; } 
+.profile a:hover { background-position: -130px -70px; }   
+.news a:hover { background-position: -130px -140px; }   
+.works a:hover { background-position: -130px -210px; }   
+.recruit a:hover { background-position: -130px -280px; }   
+.webshop a:hover { background-position: -130px -350px; } 
+.community a:hover { background-position: -130px -420px; } 
+
+
+/*PULLDOWN*/
+
+#newslist a {
+height:35px;   
+text-decoration: none;   
+background-image: url(http://www.ufotable.com/perimg/menuimg/newslist.jpg);   
+background-repeat: no-repeat;   
+}   
+#newslist a:hover {
+height:35px;    
+text-decoration: none;   
+background-image: url(http://www.ufotable.com/perimg/menuimg/newslist.jpg);   
+background-repeat: no-repeat;   
+}   
+.newslist1 a {background-position: 0px -0px;}
+.newslist1 a:hover {background-position: -130px -0px;}
+.newslist2 a {background-position: 0px -35px;}
+.newslist2 a:hover {background-position: -130px -35px;}
+.newslist3 a {background-position: 0px -70px;}
+.newslist3 a:hover {background-position: -130px -70px;}
+
+
+/*MAINC*/
+
+.clearfix:after {
+content:".";
+display: block;
+clear:both;
+height: 0;
+visibility: hidden;
+}
+
+.clearfix {
+min-height: 1px;
+}
+
+.html .clearfix {
+height: 1px;
+/*\*//*/
+height: auto;
+overflow: hidden;
+/**/
+}
+
+
+/*LEFTC*/
+
+#infopick {
+	margin:10px 0px 0px 0px;
+}
+
+#information {
+	height: 300px;
+	width:380px;
+	float:left;
+	margin:0px 20px 10px 0px;
+
+}
+
+#pickup {
+	height: 270px;
+	width:290px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	float:right;
+}
+
+.boxtitle {
+	font-size:11pt;
+	font-weight:bold;
+	overflow: auto;
+	float:left;
+	margin-bottom: 5px;
+	margin-right: 20px;
+}
+
+#inforbox {
+	height: 470px;
+	width:380px;
+	overflow: auto;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	font-size:8pt;
+	line-height:150%;
+}
+
+.date{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.title{
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+#topnews .infotext {
+	margin-bottom:1.54em;
+}
+#topnews .infotext dd {
+	margin-bottom:1em;
+}
+#topnews .infotext p {
+	margin-bottom:0.5em;
+}
+
+#pickupbox {
+	height: 270px;
+	width:290px;
+}
+
+.pickup1 {
+	height: 110px;
+	width:290px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	float:left;
+	margin-bottom: 10px;
+}
+
+
+.pickimg {
+float:left;
+margin: 5px 10px 0px 0px;
+width:140px;
+height:125px;
+}
+
+.picktitle {
+margin-top:10px;
+font-weight:bold;
+font-size:10pt;
+}
+
+.picktext {
+font-size:7pt;
+}
+
+.pickmore {
+font-size:7pt;
+font-weight:bold;
+}
+
+
+
+/*RIGHTC*/
+
+#rightbanner li{
+	list-style-type: none;
+	margin: 0px 0px 10px 0px;
+}
+
+
+/*TWITTER*/
+
+.twitterbanner{
+margin: 5px 0px 5px 0px;
+}
+
+#tweet1 {
+   list-style: none;
+   width: 220px;
+   height: 80px;
+   margin: 0;
+   font-size: 7pt;
+}
+
+#tweet2 {
+   list-style: none;
+   width: 220px;
+   height: 80px;
+   margin: 0;
+   font-size: 7pt;
+}
+
+/*FOOTER*/
+
+#footerbanner {
+	height:250px;
+	width: 960px;
+	text-align: center;
+}
+
+.subbanner1 {
+	height: 100px;
+	width:220px;
+	float:left;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.subbanner2 {
+	height: 100px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float:left;
+}
+.subbanner3 {
+	height: 100px;
+	width:220px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float:left;
+}
+.subbanner4 {
+	height: 100px;
+	width:220px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+.subbanner5 {
+	height: 100px;
+	width:220px;
+	margin-bottom: 10px;
+	padding:10px 0px 0px 0px;
+	float:left;
+}
+
+.subbanner6 {
+	height: 100px;
+	width:220px;
+	margin-bottom: 10px;
+	padding:10px 0px 0px 20px;
+	float:left;
+}
+
+.subtitle1{
+margin: 0px 10px 5px 0px;
+display:block;
+height:30px;
+width:220px;
+}
+
+.subtitle2{
+margin: 0px 10px 5px 0px;
+margin: 0px 10px 5px 0px;
+display:block;
+height:30px;
+width:220px; 
+}
+
+.subtitle3{
+margin: 0px 10px 5px 0px;
+margin: 0px 10px 5px 0px;
+display:block;
+height:30px;
+width:220px; 
+}
+
+.subtitle4{
+margin: 0px 10px 5px 0px;
+margin: 0px 10px 5px 0px;
+display:block;
+height:30px;
+width:220px;
+}
+
+.subtitle5{
+margin: 0px 10px 5px 0px;
+margin: 0px 10px 5px 0px;
+display:block;
+height:30px;
+width:220px;
+}
+
+.subimg{
+	height:80px;
+	width:80px;
+	float:left;
+	margin:5px 5px 0px 0px;
+}
+
+.subtext {
+	width:220px;
+	height:100px;
+	font-size:7pt;
+	margin:5px 0px 0px 0px;
+}
+
+
+#under_text {
+	height:10px;
+	width: 940px;
+	text-align: center;
+	float: right;
+	margin:10px 0px 0px 0px;
+}
+
+#under_text ul {
+	height:30px;
+	width: 940px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	margin-top:10px;
+}
+
+#under_text li {
+	float: left;
+	list-style-type: none;
+	margin:10px 10px 0px 0px;
+	font-size:8pt;
+}
+
+#under_text2 {
+	height:10px;
+	width: 940px;
+	text-align: center;
+	float: right;
+}
+
+#under_text2 ul {
+	margin-top:10px;
+}
+
+#under_text2 li {
+	float: left;
+	list-style-type: none;
+	float: right;
+	font-size:8pt;
+}
